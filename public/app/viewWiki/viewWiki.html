@@ -1,0 +1,14 @@
+<ul>
+    <p style="color: red">{{error}}</p>
+    <p><code>Wait, cause we've got a lot of objects! Number of wiki's in our database: {{wikis.length}}</code></p>
+    <p>Search in "Titles": <input type="search" ng-model="wikifilter" placeholder="Write title here"><br/></p>
+    <accordion close-others="true">
+        <accordion-group heading={{wiki.title}} ng-repeat="wiki in wikis | filter:wikifilter | startFrom : bigCurrentPage*10 |  limitTo:10 ">
+            <p>{{wiki.abstract}}</p>
+            <br/>
+            <a href="#/viewWiki/{{wiki._id}}">...more info</a>
+        </accordion-group>
+    </accordion>
+    <pagination total-items="bigTotalItems" ng-model="bigCurrentPage" max-size="maxSize" class="pagination-sm" boundary-links="true"></pagination>
+
+</ul>

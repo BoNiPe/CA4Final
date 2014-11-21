@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html ng-app="myAppRename" ng-controller="AppCtrl">
+<head>
+  <meta charset="utf8"/>
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="../vendor/bootstrap/dist/css/bootstrap.css">
+  <link href="vendor/bootstrap/dist/css/simple-sidebar.css" rel="stylesheet">
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
+  <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.0.js"></script>
+
+</head>
+<body>
+
+<div ng-controller="AppCtrl">
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a href="#/viewHome">
+            <h1>BoNiPedia</h1>
+          </a>
+        </li>
+        <li>
+          <a href="#/viewWiki">TitlesPedia</a>
+        </li>
+        <li>
+          <a href="#/viewCategories">CategoriesPedia</a>
+        </li>
+        <li>
+          <a href="#/viewNewWiki">Add Wiki</a>
+        </li>
+        <li>
+          <a href="https://github.com/BoNiPe/CA4Final">Github</a>
+        </li>
+        <li>
+          <a href="ca4_BoNiPe.pdf">Documentation</a>
+        </li>
+        <li>
+          <a href="http://en.wikipedia.org">WikiPedia</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div ng-view="ng-view"></div>
+    </div>
+  </div>
+
+  <script src="app/app.js"></script>
+  <script src="app/viewHome/viewHome.js"></script>
+  <script src="app/view2/view2.js"></script>
+  <script src="app/viewWiki/viewWiki.js"></script>
+  <script src="app/viewCategories/viewCategories.js"></script>
+  <script src="app/viewNewWiki/viewNewWiki.js"></script>
+  <script src="app/components/controllers.js"></script>
+  <script src="app/components/directives.js"></script>
+  <script src="app/components/factories.js"></script>
+  <script src="app/components/services.js"></script>
+  <script src="app/components/filters.js"></script>
+  <script src="vendor/angular/angular.js"></script>
+  <script src="vendor/angular-route/angular-route.js"></script>
+</body>
+</html>

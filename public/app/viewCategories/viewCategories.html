@@ -1,0 +1,20 @@
+<p><code>Wait, cause we've got a lot of objects! Number of categories in our database: {{allCategories.length}}</code></p>
+<button type="button" class="btn-info" ng-repeat="letter in alphabet" ng-click="showParticularCategories(letter)">{{letter}}</button>
+<p> Search in Categories: <input type="search" ng-model="categoryfilter" placeholder="Write category here"></p>
+<accordion close-others="true">
+    <accordion-group heading={{category}} ng-repeat="category in allCategories | filter:categoryfilter" ng-click="getTitlesOfCategories(category)">
+        <table class="table">
+            <thead>
+            <tr>
+                <td><b>Titles</b></td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="title in allTitles">
+                <td>{{title.title}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </accordion-group>
+</accordion>
+

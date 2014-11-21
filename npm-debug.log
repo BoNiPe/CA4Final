@@ -1,0 +1,340 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'you',
+1 verbose cli   'fucking',
+1 verbose cli   'sick',
+1 verbose cli   'no',
+1 verbose cli   'no',
+1 verbose cli   'no' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'you', null ]
+7 verbose cache add name=undefined spec="you" args=["you",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'you',
+8 verbose parsed url   path: 'you',
+8 verbose parsed url   href: 'you' }
+9 verbose cache add [ 'fucking', null ]
+10 verbose cache add name=undefined spec="fucking" args=["fucking",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'fucking',
+11 verbose parsed url   path: 'fucking',
+11 verbose parsed url   href: 'fucking' }
+12 verbose cache add [ 'sick', null ]
+13 verbose cache add name=undefined spec="sick" args=["sick",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'sick',
+14 verbose parsed url   path: 'sick',
+14 verbose parsed url   href: 'sick' }
+15 verbose cache add [ 'no', null ]
+16 verbose cache add name=undefined spec="no" args=["no",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'no',
+17 verbose parsed url   path: 'no',
+17 verbose parsed url   href: 'no' }
+18 verbose cache add [ 'no', null ]
+19 verbose cache add name=undefined spec="no" args=["no",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'no',
+20 verbose parsed url   path: 'no',
+20 verbose parsed url   href: 'no' }
+21 verbose cache add [ 'no', null ]
+22 verbose cache add name=undefined spec="no" args=["no",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'no',
+23 verbose parsed url   path: 'no',
+23 verbose parsed url   href: 'no' }
+24 silly lockFile 8af56de6-you you
+25 verbose lock you C:\Users\Desting\AppData\Roaming\npm-cache\8af56de6-you.lock
+26 silly lockFile 08bc5bed-fucking fucking
+27 verbose lock fucking C:\Users\Desting\AppData\Roaming\npm-cache\08bc5bed-fucking.lock
+28 silly lockFile 6de7382d-sick sick
+29 verbose lock sick C:\Users\Desting\AppData\Roaming\npm-cache\6de7382d-sick.lock
+30 silly lockFile fd128635-no no
+31 verbose lock no C:\Users\Desting\AppData\Roaming\npm-cache\fd128635-no.lock
+32 silly lockFile fd128635-no no
+33 verbose lock no C:\Users\Desting\AppData\Roaming\npm-cache\fd128635-no.lock
+34 silly lockFile fd128635-no no
+35 verbose lock no C:\Users\Desting\AppData\Roaming\npm-cache\fd128635-no.lock
+36 silly lockFile 8af56de6-you you
+37 silly lockFile 8af56de6-you you
+38 silly lockFile 6de7382d-sick sick
+39 silly lockFile 6de7382d-sick sick
+40 silly lockFile 08bc5bed-fucking fucking
+41 silly lockFile 08bc5bed-fucking fucking
+42 silly lockFile fd128635-no no
+43 silly lockFile fd128635-no no
+44 verbose addNamed [ 'you', '' ]
+45 verbose addNamed [ null, '*' ]
+46 silly lockFile 9c3f0b4f-you you@
+47 verbose lock you@ C:\Users\Desting\AppData\Roaming\npm-cache\9c3f0b4f-you.lock
+48 verbose addNamed [ 'sick', '' ]
+49 verbose addNamed [ null, '*' ]
+50 silly lockFile 7a732c04-sick sick@
+51 verbose lock sick@ C:\Users\Desting\AppData\Roaming\npm-cache\7a732c04-sick.lock
+52 verbose addNamed [ 'fucking', '' ]
+53 verbose addNamed [ null, '*' ]
+54 silly lockFile 36dda17c-fucking fucking@
+55 verbose lock fucking@ C:\Users\Desting\AppData\Roaming\npm-cache\36dda17c-fucking.lock
+56 verbose addNamed [ 'no', '' ]
+57 verbose addNamed [ null, '*' ]
+58 silly lockFile d943a22b-no no@
+59 verbose lock no@ C:\Users\Desting\AppData\Roaming\npm-cache\d943a22b-no.lock
+60 silly addNameRange { name: 'sick', range: '*', hasData: false }
+61 silly addNameRange { name: 'you', range: '*', hasData: false }
+62 silly addNameRange { name: 'fucking', range: '*', hasData: false }
+63 verbose request where is /sick
+64 verbose request registry https://registry.npmjs.org/
+65 verbose request id 4203c0278395bb26
+66 verbose url raw /sick
+67 verbose url resolving [ 'https://registry.npmjs.org/', './sick' ]
+68 verbose url resolved https://registry.npmjs.org/sick
+69 verbose request where is https://registry.npmjs.org/sick
+70 info trying registry request attempt 1 at 17:31:44
+71 http GET https://registry.npmjs.org/sick
+72 verbose request where is /you
+73 verbose request registry https://registry.npmjs.org/
+74 verbose url raw /you
+75 verbose url resolving [ 'https://registry.npmjs.org/', './you' ]
+76 verbose url resolved https://registry.npmjs.org/you
+77 verbose request where is https://registry.npmjs.org/you
+78 info trying registry request attempt 1 at 17:31:44
+79 http GET https://registry.npmjs.org/you
+80 verbose request where is /fucking
+81 verbose request registry https://registry.npmjs.org/
+82 verbose url raw /fucking
+83 verbose url resolving [ 'https://registry.npmjs.org/', './fucking' ]
+84 verbose url resolved https://registry.npmjs.org/fucking
+85 verbose request where is https://registry.npmjs.org/fucking
+86 info trying registry request attempt 1 at 17:31:44
+87 http GET https://registry.npmjs.org/fucking
+88 silly addNameRange { name: 'no', range: '*', hasData: false }
+89 verbose request where is /no
+90 verbose request registry https://registry.npmjs.org/
+91 verbose url raw /no
+92 verbose url resolving [ 'https://registry.npmjs.org/', './no' ]
+93 verbose url resolved https://registry.npmjs.org/no
+94 verbose request where is https://registry.npmjs.org/no
+95 info trying registry request attempt 1 at 17:31:44
+96 http GET https://registry.npmjs.org/no
+97 silly lockFile fd128635-no no
+98 silly lockFile fd128635-no no
+99 verbose addNamed [ 'no', '' ]
+100 silly lockFile fd128635-no no
+101 silly lockFile fd128635-no no
+102 verbose addNamed [ 'no', '' ]
+103 http 200 https://registry.npmjs.org/no
+104 silly registry.get cb [ 200,
+104 silly registry.get   { date: 'Fri, 21 Nov 2014 16:31:43 GMT',
+104 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+104 silly registry.get     etag: '"2C8ONRIQTFD7W5MJ9YN42S720"',
+104 silly registry.get     'content-type': 'application/json',
+104 silly registry.get     'cache-control': 'max-age=60',
+104 silly registry.get     'content-length': '3167',
+104 silly registry.get     'accept-ranges': 'bytes',
+104 silly registry.get     via: '1.1 varnish',
+104 silly registry.get     age: '0',
+104 silly registry.get     'x-served-by': 'cache-fra1226-FRA',
+104 silly registry.get     'x-cache': 'MISS',
+104 silly registry.get     'x-cache-hits': '0',
+104 silly registry.get     'x-timer': 'S1416587503.479278,VS0,VE119',
+104 silly registry.get     vary: 'Accept',
+104 silly registry.get     'keep-alive': 'timeout=10, max=50',
+104 silly registry.get     connection: 'Keep-Alive' } ]
+105 silly addNameRange number 2 { name: 'no', range: '*', hasData: true }
+106 silly addNameRange versions [ 'no', [ '0.0.1' ] ]
+107 verbose addNamed [ 'no', '0.0.1' ]
+108 verbose addNamed [ '0.0.1', '0.0.1' ]
+109 silly lockFile 5446f0b0-no-0-0-1 no@0.0.1
+110 verbose lock no@0.0.1 C:\Users\Desting\AppData\Roaming\npm-cache\5446f0b0-no-0-0-1.lock
+111 silly lockFile b6e01057-gistry-npmjs-org-no-no-0-0-1-tgz https://registry.npmjs.org/no/-/no-0.0.1.tgz
+112 verbose lock https://registry.npmjs.org/no/-/no-0.0.1.tgz C:\Users\Desting\AppData\Roaming\npm-cache\b6e01057-gistry-npmjs-org-no-no-0-0-1-tgz.lock
+113 verbose addRemoteTarball [ 'https://registry.npmjs.org/no/-/no-0.0.1.tgz',
+113 verbose addRemoteTarball   '1fbec6cd91eacc2defe5917dffea90edc8eb5df6' ]
+114 info retry fetch attempt 1 at 17:31:45
+115 verbose fetch to= C:\Users\Desting\AppData\Local\Temp\npm-6140-hw4A_zje\registry.npmjs.org\no\-\no-0.0.1.tgz
+116 http GET https://registry.npmjs.org/no/-/no-0.0.1.tgz
+117 http 404 https://registry.npmjs.org/fucking
+118 verbose headers { date: 'Fri, 21 Nov 2014 16:31:43 GMT',
+118 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+118 verbose headers   'content-type': 'application/json',
+118 verbose headers   'cache-control': 'max-age=0',
+118 verbose headers   'content-length': '52',
+118 verbose headers   'accept-ranges': 'bytes',
+118 verbose headers   via: '1.1 varnish',
+118 verbose headers   age: '0',
+118 verbose headers   'x-served-by': 'cache-fra1233-FRA',
+118 verbose headers   'x-cache': 'MISS',
+118 verbose headers   'x-cache-hits': '0',
+118 verbose headers   'x-timer': 'S1416587503.484112,VS0,VE482',
+118 verbose headers   'keep-alive': 'timeout=10, max=50',
+118 verbose headers   connection: 'Keep-Alive' }
+119 silly registry.get cb [ 404,
+119 silly registry.get   { date: 'Fri, 21 Nov 2014 16:31:43 GMT',
+119 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+119 silly registry.get     'content-type': 'application/json',
+119 silly registry.get     'cache-control': 'max-age=0',
+119 silly registry.get     'content-length': '52',
+119 silly registry.get     'accept-ranges': 'bytes',
+119 silly registry.get     via: '1.1 varnish',
+119 silly registry.get     age: '0',
+119 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+119 silly registry.get     'x-cache': 'MISS',
+119 silly registry.get     'x-cache-hits': '0',
+119 silly registry.get     'x-timer': 'S1416587503.484112,VS0,VE482',
+119 silly registry.get     'keep-alive': 'timeout=10, max=50',
+119 silly registry.get     connection: 'Keep-Alive' } ]
+120 silly lockFile 36dda17c-fucking fucking@
+121 silly lockFile 36dda17c-fucking fucking@
+122 http 200 https://registry.npmjs.org/you
+123 silly registry.get cb [ 200,
+123 silly registry.get   { date: 'Fri, 21 Nov 2014 16:31:44 GMT',
+123 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+123 silly registry.get     etag: '"ASCI1LZFKJF53BI7GTP2H5Z7S"',
+123 silly registry.get     'content-type': 'application/json',
+123 silly registry.get     'cache-control': 'max-age=60',
+123 silly registry.get     'content-length': '17872',
+123 silly registry.get     'accept-ranges': 'bytes',
+123 silly registry.get     via: '1.1 varnish',
+123 silly registry.get     age: '0',
+123 silly registry.get     'x-served-by': 'cache-fra1237-FRA',
+123 silly registry.get     'x-cache': 'MISS',
+123 silly registry.get     'x-cache-hits': '0',
+123 silly registry.get     'x-timer': 'S1416587503.488253,VS0,VE606',
+123 silly registry.get     vary: 'Accept',
+123 silly registry.get     'keep-alive': 'timeout=10, max=50',
+123 silly registry.get     connection: 'Keep-Alive' } ]
+124 silly addNameRange number 2 { name: 'you', range: '*', hasData: true }
+125 silly addNameRange versions [ 'you',
+125 silly addNameRange   [ '0.0.1',
+125 silly addNameRange     '0.0.2',
+125 silly addNameRange     '0.1.0',
+125 silly addNameRange     '0.1.1',
+125 silly addNameRange     '0.1.2',
+125 silly addNameRange     '0.1.3',
+125 silly addNameRange     '0.1.4',
+125 silly addNameRange     '0.1.5' ] ]
+126 verbose addNamed [ 'you', '0.1.5' ]
+127 verbose addNamed [ '0.1.5', '0.1.5' ]
+128 silly lockFile 92a58d4d-you-0-1-5 you@0.1.5
+129 verbose lock you@0.1.5 C:\Users\Desting\AppData\Roaming\npm-cache\92a58d4d-you-0-1-5.lock
+130 silly lockFile 55895ded-stry-npmjs-org-you-you-0-1-5-tgz https://registry.npmjs.org/you/-/you-0.1.5.tgz
+131 verbose lock https://registry.npmjs.org/you/-/you-0.1.5.tgz C:\Users\Desting\AppData\Roaming\npm-cache\55895ded-stry-npmjs-org-you-you-0-1-5-tgz.lock
+132 verbose addRemoteTarball [ 'https://registry.npmjs.org/you/-/you-0.1.5.tgz',
+132 verbose addRemoteTarball   '6ee2113c9d50030e6439badd50dc852ae6d4677d' ]
+133 info retry fetch attempt 1 at 17:31:45
+134 verbose fetch to= C:\Users\Desting\AppData\Local\Temp\npm-6140-hw4A_zje\registry.npmjs.org\you\-\you-0.1.5.tgz
+135 http GET https://registry.npmjs.org/you/-/you-0.1.5.tgz
+136 http 404 https://registry.npmjs.org/sick
+137 verbose headers { date: 'Fri, 21 Nov 2014 16:31:44 GMT',
+137 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+137 verbose headers   'content-type': 'application/json',
+137 verbose headers   'cache-control': 'max-age=0',
+137 verbose headers   'content-length': '52',
+137 verbose headers   'accept-ranges': 'bytes',
+137 verbose headers   via: '1.1 varnish',
+137 verbose headers   age: '0',
+137 verbose headers   'x-served-by': 'cache-fra1222-FRA',
+137 verbose headers   'x-cache': 'MISS',
+137 verbose headers   'x-cache-hits': '0',
+137 verbose headers   'x-timer': 'S1416587503.480793,VS0,VE710',
+137 verbose headers   'keep-alive': 'timeout=10, max=50',
+137 verbose headers   connection: 'Keep-Alive' }
+138 silly registry.get cb [ 404,
+138 silly registry.get   { date: 'Fri, 21 Nov 2014 16:31:44 GMT',
+138 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+138 silly registry.get     'content-type': 'application/json',
+138 silly registry.get     'cache-control': 'max-age=0',
+138 silly registry.get     'content-length': '52',
+138 silly registry.get     'accept-ranges': 'bytes',
+138 silly registry.get     via: '1.1 varnish',
+138 silly registry.get     age: '0',
+138 silly registry.get     'x-served-by': 'cache-fra1222-FRA',
+138 silly registry.get     'x-cache': 'MISS',
+138 silly registry.get     'x-cache-hits': '0',
+138 silly registry.get     'x-timer': 'S1416587503.480793,VS0,VE710',
+138 silly registry.get     'keep-alive': 'timeout=10, max=50',
+138 silly registry.get     connection: 'Keep-Alive' } ]
+139 silly lockFile 7a732c04-sick sick@
+140 silly lockFile 7a732c04-sick sick@
+141 http 200 https://registry.npmjs.org/no/-/no-0.0.1.tgz
+142 silly lockFile b6e01057-gistry-npmjs-org-no-no-0-0-1-tgz https://registry.npmjs.org/no/-/no-0.0.1.tgz
+143 silly lockFile b6e01057-gistry-npmjs-org-no-no-0-0-1-tgz https://registry.npmjs.org/no/-/no-0.0.1.tgz
+144 silly lockFile 5446f0b0-no-0-0-1 no@0.0.1
+145 silly lockFile 5446f0b0-no-0-0-1 no@0.0.1
+146 silly lockFile d943a22b-no no@
+147 silly lockFile d943a22b-no no@
+148 http 200 https://registry.npmjs.org/you/-/you-0.1.5.tgz
+149 silly lockFile 55895ded-stry-npmjs-org-you-you-0-1-5-tgz https://registry.npmjs.org/you/-/you-0.1.5.tgz
+150 silly lockFile 55895ded-stry-npmjs-org-you-you-0-1-5-tgz https://registry.npmjs.org/you/-/you-0.1.5.tgz
+151 silly lockFile 92a58d4d-you-0-1-5 you@0.1.5
+152 silly lockFile 92a58d4d-you-0-1-5 you@0.1.5
+153 silly lockFile 9c3f0b4f-you you@
+154 silly lockFile 9c3f0b4f-you you@
+155 error 404 404 Not Found: fucking
+155 error 404
+155 error 404 'fucking' is not in the npm registry.
+155 error 404 You should bug the author to publish it
+155 error 404 It was specified as a dependency of 'ExpressAngularSeed'
+155 error 404
+155 error 404 Note that you can also install from a
+155 error 404 tarball, folder, or http url, or git url.
+156 error System Windows_NT 6.2.9200
+157 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "you" "fucking" "sick" "no" "no" "no"
+158 error cwd C:\Users\Desting\Desktop\Skole\3. Semester\CA's\CA4\Code\CA4Final
+159 error node -v v0.10.32
+160 error npm -v 1.4.28
+161 error code E404
+162 verbose exit [ 1, true ]
